@@ -256,7 +256,7 @@
 	/* Formule 2 */
 
 	#offre .formule.f2 .section{
-		margin-top: 12px;
+		padding-top: 10px;
 		height: 98px;
 	}
 
@@ -295,7 +295,7 @@
 	/* Formule 3 */
 
 	#offre .formule.f3 .section{
-		margin-top: 12px;
+		padding-top: 10px;
 		height: 98px;
 	}
 
