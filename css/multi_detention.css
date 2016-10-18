@@ -253,7 +253,6 @@
 	}
 
 	#offre a.button{
-		/* display:inline-block; */
 		text-align: left;
 		margin-top: 20px;
 		width: auto;
@@ -275,6 +274,7 @@
 
 	#offre a.button span{
 		position: relative;
+		width:auto;
 	}
 
 	#offre a.button span i.chevron{
