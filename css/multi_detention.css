@@ -111,7 +111,7 @@
 	#offre{
 		text-align: center;
 		background-color: #ffffff;
-		padding: 25px 70px;
+		padding: 25px 50px;
 	}
 
 	#offre .textGroup{
@@ -132,6 +132,19 @@
 		height:170px;
 	}
 
+	#offre .formule.f1{
+		width: 570px;
+	}
+
+	#offre .formule.f2{
+		width: 700px;
+	}
+
+	#offre .formule.f3{
+		width: 820px;
+	}
+
+
 	#offre .formule .textGroup{
 		text-transform: uppercase;
 		font-weight: bold;
@@ -150,13 +163,15 @@
 
 
 
+
+
 	/*  SECTIONS  */
 	.section {
 		clear: both;
 		padding: 0px;
 		margin-top: 5px;
-		/* margin: 10px 0px; */
 	}
+
 
 	/*  COLUMN SETUP  */
 	.col {
@@ -183,63 +198,156 @@
 	    zoom:1; /* For IE 6/7 */
 	}
 
-	/*  GRID OF FIVE  */
-.span_5_of_5 {
-	width: 100%;
-}
-.span_4_of_5 {
-	width: 79.68%;
-}
-.span_3_of_5 {
-	width: 59.36%;
-}
-.span_2_of_5 {
-	width: 39.04%;
-}
-.span_1_of_5 {
-	width: 18.72%;
-}
+	/*  GRID */
 
 
-.col.e1{
-	margin-top:10px;
-	margin-left: 8px;
-	font-size: 63px;
-	width: 10.72%;
-}
-.col.e2{
-	text-align: left;
-	font-weight: bold;
-	line-height: 23px;
-	font-size: 18px;
-	width: 18.72%;
-  margin-top: 23px;
-}
-.col.e3{
-	font-size: 83px;
-	width: 14.72%;
-	margin-top:0px;
-}
-.col.e4{
-	font-size: 63px;
-	width: 27.72%;
-}
+	/* Formule 1 */
 
-.col.e4 span{
-	margin-left: 8px;
+	#offre .formule.f1 .col {
+		margin: 1% 0 1% 1.6%;
+	}
 
-}
-.col.e5{
-	font-size: 18px;
-	font-weight: bold;
-	width: 18.72%;
-	margin-top:31px;
-}
-.col.e5 sup{
-	font-size: 13px;
-	font-weight: normal;
-}
+	#offre .formule.f1 .col:first-child { margin-left: 0; }
 
+	#offre .formule.f1 .span_1_of_5 {
+		width: 18.72%;
+	}
+
+	#offre .formule.f1 .col.e1{
+		margin-top:10px;
+		margin-left: 8px;
+		font-size: 63px;
+		width: 10.72%;
+	}
+	#offre .formule.f1 .col.e2{
+		text-align: left;
+		font-weight: bold;
+		line-height: 23px;
+		font-size: 18px;
+		width: 18.72%;
+	  margin-top: 23px;
+	}
+	#offre .formule.f1 .col.e3{
+		font-size: 83px;
+		width: 14.72%;
+		margin-top:0px;
+	}
+	#offre .formule.f1 .col.e4{
+		font-size: 63px;
+		width: 27.72%;
+	}
+
+	#offre .formule.f1 .col.e4 span{
+		margin-left: 8px;
+
+	}
+	#offre .formule.f1 .col.e5{
+		font-size: 18px;
+		font-weight: bold;
+		width: 18.72%;
+		margin-top:31px;
+	}
+	#offre .formule.f1 .col.e5 sup{
+		font-size: 13px;
+		font-weight: normal;
+	}
+
+
+	/* Formule 2 */
+
+	#offre .formule.f2 .section{
+		margin-top: 12px;
+		height: 98px;
+	}
+
+	#offre .formule.f2 .col {
+		margin: 1% 0 1% 5.8%;;
+	}
+
+	#offre .formule.f2 .col:first-child { margin-left: 0; }
+
+	#offre .formule.f2 .span_1_of_2 {
+		width: 44%;
+		font-size: 25px;
+		color: #000;
+	}
+
+	#offre .formule.f2 .col span{
+		display: block;
+		font-size: 34px;
+		color: #e60028;
+		margin-top: 7px;
+		font-weight: bold;
+	}
+
+	#offre .formule.f2 .col span sup{
+		font-size: 16px;
+		top:-14px;
+		font-weight: normal;
+	}
+
+	#offre .formule.f2 .span_1_of_2.e1{
+		border-right:2px solid #c9c9c9;
+		padding-right: 41px;
+	}
+
+
+	/* Formule 3 */
+
+	#offre .formule.f3 .section{
+		margin-top: 12px;
+		height: 98px;
+	}
+
+	#offre .formule.f3 .col {
+		margin: 1% 0 1% 3.8%;;
+	}
+
+	#offre .formule.f3 .col:first-child { margin-left: 0; }
+
+	#offre .formule.f3 .span_1_of_3 {
+		width: 29%;
+		font-size: 16px;
+		color: #000;
+	}
+
+	#offre .formule.f3 .span_1_of_3 strong {
+		font-size: 22px;
+	}
+
+	#offre .formule.f3 .col span{
+
+		font-size: 22px;
+		color: #e60028;
+		margin-top: 7px;
+		font-weight: bold;
+		margin-left: 10px;
+	}
+
+	#offre .formule.f3 .col span sup{
+		font-size: 12px;
+		top:-8px;
+		font-weight: normal;
+	}
+
+	#offre .formule.f3 .col span.amount{
+		font-size: 32px;
+		margin-left: 0px;
+	}
+
+	#offre .formule.f3 .col span.condition{
+		display: block;
+		margin-top:0;
+		margin-bottom: 7px;
+		font-size: 16px;
+		font-weight: normal;
+		color: #000;
+	}
+
+	#offre .formule.f3 .span_1_of_3.e1, #offre .formule.f3 .span_1_of_3.e2{
+		border-right:2px solid #c9c9c9;
+		padding-right: 17px;
+	}
 
 
 
@@ -334,29 +442,7 @@
 	}
 
 
-/* 	#mentions_legales .mentions dt:before {
-		content: '('counter(mention_count)')';
-    counter-increment: mention_count;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 12px;
-		font-weight: bold;
-} */
-
-
-
 		#mentions_legales .mentions.small{
 			font-size: 12px;
 			line-height: 16px;
 		}
-
-/* 		#mentions_legales .mentions.small dt:before {
-	content: '*';
-	font-size: 12px;
-} */
-
-/* 	#mentions_legales p{
-  margin: 0;
-  padding: 0;
-} */
