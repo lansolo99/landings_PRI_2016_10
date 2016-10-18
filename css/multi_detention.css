@@ -289,6 +289,12 @@
 	}
 
 
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	  #offre a.button span i.chevron{
+			top:23px;
+		}
+	}
+
 	/*Mentions légales*/
 
 	#mentions_legales {
